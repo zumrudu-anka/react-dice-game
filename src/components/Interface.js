@@ -11,23 +11,12 @@ export default class Interface extends Component {
                     src={images.dice_six_faces_random}
                     onClick = {this.props.startGame}
                 />
-                {/* <span
-                    style={{
-                        cursor : "pointer"
-                    }}
+                <span
+                    className="clear"
                     onClick={this.props.clearState}
                 >
-                    Clear
-                </span> */}
-                {/* <div
-                    className="table"
-                    style={{
-                        fontSize : "30px"
-                    }}
-                >
-                    You: {this.props.yourChoice} AI: {this.props.AIChoice}
-                </div> */}
-
+                    Clear ✖
+                </span>
             </div>
         )
     }

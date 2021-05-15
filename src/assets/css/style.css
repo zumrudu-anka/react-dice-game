@@ -34,6 +34,11 @@
     color: white;
     padding: 5px 15px;
     cursor: pointer;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
 }
 
 #root .interface .information::after{
@@ -62,6 +67,23 @@
 
 #root .interface img:hover{
     box-shadow: 0 0 15px 15px aliceblue;
+}
+
+#root .interface .clear{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 1;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+
 }
 
 #root .resultArea{
@@ -126,7 +148,7 @@
 
 #root .rankingTable{
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
     width: clamp(150px, 50vw, 350px);
     height: 150px;
@@ -136,7 +158,7 @@
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 #root .rankingTable h2{
@@ -148,6 +170,6 @@
         top: unset;
         bottom: 0;
         width: 100%;
-        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
     }
 }
