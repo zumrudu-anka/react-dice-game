@@ -2,6 +2,7 @@
   "name": "react-dice-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zumrudu-anka.github.io/react-dice-game/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -15,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main  -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

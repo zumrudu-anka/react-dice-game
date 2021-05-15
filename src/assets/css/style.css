@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #001921;
+}
+
+#root .interface{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: 100%;
+}
+
+#root .interface .information{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 255, 255);
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#root .interface .information::after{
+    content : "Click The Dice To Play";
+    position: relative;
+    top: 0;
+    left: 10px;
+    display: none;
+}
+
+#root .interface .information:hover{
+    background-color: #00465d;
+    transition: 0.5s;
+}
+
+#root .interface .information:hover::after{
+    display: inline;
+}
+
+#root .interface img{
+    width: clamp(75px, 15vw, 150px);
+    border-radius: 10px;
+    cursor: pointer;
+    mix-blend-mode: color-dodge;
+}
+
+#root .interface img:hover{
+    box-shadow: 0 0 15px 15px aliceblue;
+}
+
+#root .resultArea{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: #00465d;
+    border-radius: 50px;
+}
+
+#root .resultArea::after{
+    content: "Result Area";
+    position: absolute;
+    top: 25px;
+    color: white;
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: bold;
+}
+
+#root .resultArea .result{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+
+#root .resultArea .result h2{
+    position: absolute;
+    top: 50px;
+    color: white;
+}
+
+#root .resultArea .won,
+#root .resultArea .lost,
+#root .resultArea .draw
+{
+    border-radius: 10px;
+    width: clamp(100px, 50vw ,250px);
+    text-align: center;
+    font-size: clamp(1em, 5vw ,2.5em);
+}
+
+#root .resultArea .won{
+    color: cyan;
+}
+
+#root .resultArea .lost{
+    color: red;
+}
+
+#root .resultArea .draw{
+    color: white;
+}
+
+#root .rankingTable{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: clamp(150px, 50vw, 350px);
+    height: 150px;
+    background-color: #00465d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-bottom-left-radius: 50px;
+}
+
+#root .rankingTable h2{
+    font-size : clamp(1rem, 1.5vw, 1.5rem);
+}
+
+@media (max-width: 600px) {
+    #root .rankingTable{
+        top: unset;
+        bottom: 0;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+}
