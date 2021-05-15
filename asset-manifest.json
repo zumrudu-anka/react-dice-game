@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-dice-game/static/css/main.d3540f87.chunk.css",
+    "main.css": "/react-dice-game/static/css/main.86312585.chunk.css",
     "main.js": "/react-dice-game/static/js/main.00800ca6.chunk.js",
     "main.js.map": "/react-dice-game/static/js/main.00800ca6.chunk.js.map",
     "runtime-main.js": "/react-dice-game/static/js/runtime-main.c4ea3a9a.js",
@@ -8,7 +8,7 @@
     "static/js/2.b67d5087.chunk.js": "/react-dice-game/static/js/2.b67d5087.chunk.js",
     "static/js/2.b67d5087.chunk.js.map": "/react-dice-game/static/js/2.b67d5087.chunk.js.map",
     "index.html": "/react-dice-game/index.html",
-    "static/css/main.d3540f87.chunk.css.map": "/react-dice-game/static/css/main.d3540f87.chunk.css.map",
+    "static/css/main.86312585.chunk.css.map": "/react-dice-game/static/css/main.86312585.chunk.css.map",
     "static/js/2.b67d5087.chunk.js.LICENSE.txt": "/react-dice-game/static/js/2.b67d5087.chunk.js.LICENSE.txt",
     "static/media/dice-six-faces-five.6a5260a1.svg": "/react-dice-game/static/media/dice-six-faces-five.6a5260a1.svg",
     "static/media/dice-six-faces-four.c83d8917.svg": "/react-dice-game/static/media/dice-six-faces-four.c83d8917.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c4ea3a9a.js",
     "static/js/2.b67d5087.chunk.js",
-    "static/css/main.d3540f87.chunk.css",
+    "static/css/main.86312585.chunk.css",
     "static/js/main.00800ca6.chunk.js"
   ]
 }
