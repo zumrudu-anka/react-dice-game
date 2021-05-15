@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-dice-game/static/css/main.d3540f87.chunk.css",
+    "main.js": "/react-dice-game/static/js/main.00800ca6.chunk.js",
+    "main.js.map": "/react-dice-game/static/js/main.00800ca6.chunk.js.map",
+    "runtime-main.js": "/react-dice-game/static/js/runtime-main.c4ea3a9a.js",
+    "runtime-main.js.map": "/react-dice-game/static/js/runtime-main.c4ea3a9a.js.map",
+    "static/js/2.b67d5087.chunk.js": "/react-dice-game/static/js/2.b67d5087.chunk.js",
+    "static/js/2.b67d5087.chunk.js.map": "/react-dice-game/static/js/2.b67d5087.chunk.js.map",
+    "index.html": "/react-dice-game/index.html",
+    "static/css/main.d3540f87.chunk.css.map": "/react-dice-game/static/css/main.d3540f87.chunk.css.map",
+    "static/js/2.b67d5087.chunk.js.LICENSE.txt": "/react-dice-game/static/js/2.b67d5087.chunk.js.LICENSE.txt",
+    "static/media/dice-six-faces-five.6a5260a1.svg": "/react-dice-game/static/media/dice-six-faces-five.6a5260a1.svg",
+    "static/media/dice-six-faces-four.c83d8917.svg": "/react-dice-game/static/media/dice-six-faces-four.c83d8917.svg",
+    "static/media/dice-six-faces-one.ce914e68.svg": "/react-dice-game/static/media/dice-six-faces-one.ce914e68.svg",
+    "static/media/dice-six-faces-six.99b411a6.svg": "/react-dice-game/static/media/dice-six-faces-six.99b411a6.svg",
+    "static/media/dice-six-faces-three.7ced88d9.svg": "/react-dice-game/static/media/dice-six-faces-three.7ced88d9.svg",
+    "static/media/dice-six-faces-two.fc5b92b5.svg": "/react-dice-game/static/media/dice-six-faces-two.fc5b92b5.svg",
+    "static/media/perspective-dice-six-faces-random.5137699c.svg": "/react-dice-game/static/media/perspective-dice-six-faces-random.5137699c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4ea3a9a.js",
+    "static/js/2.b67d5087.chunk.js",
+    "static/css/main.d3540f87.chunk.css",
+    "static/js/main.00800ca6.chunk.js"
+  ]
+}
